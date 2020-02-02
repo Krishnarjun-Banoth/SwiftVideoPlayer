@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		DA054A2723E6A0FB00EC5A00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A2623E6A0FB00EC5A00 /* AppDelegate.swift */; };
-		DA054A2923E6A0FB00EC5A00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A2823E6A0FB00EC5A00 /* ViewController.swift */; };
+		DA054A2923E6A0FB00EC5A00 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A2823E6A0FB00EC5A00 /* HomeViewController.swift */; };
 		DA054A2C23E6A0FB00EC5A00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA054A2A23E6A0FB00EC5A00 /* Main.storyboard */; };
 		DA054A2E23E6A0FD00EC5A00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA054A2D23E6A0FD00EC5A00 /* Assets.xcassets */; };
 		DA054A3123E6A0FD00EC5A00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA054A2F23E6A0FD00EC5A00 /* LaunchScreen.storyboard */; };
 		DA054A3C23E6A0FD00EC5A00 /* KrishnaVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A3B23E6A0FD00EC5A00 /* KrishnaVideoPlayerTests.swift */; };
 		DA054A4723E6A0FD00EC5A00 /* KrishnaVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A4623E6A0FD00EC5A00 /* KrishnaVideoPlayerUITests.swift */; };
+		DA054A5C23E6A23800EC5A00 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A5B23E6A23800EC5A00 /* HomeViewModel.swift */; };
+		DA054A5E23E6A30400EC5A00 /* assignment.json in Resources */ = {isa = PBXBuildFile; fileRef = DA054A5D23E6A30400EC5A00 /* assignment.json */; };
+		DA054A6023E6A59F00EC5A00 /* HomeDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A5F23E6A59F00EC5A00 /* HomeDetails.swift */; };
+		DA054A6223E6AADF00EC5A00 /* HomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A6123E6AADF00EC5A00 /* HomeTableView.swift */; };
+		DA054A6423E6AB2900EC5A00 /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A6323E6AB2900EC5A00 /* HomeTableViewCell.swift */; };
+		DA054A6623E6BD8400EC5A00 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A6523E6BD8400EC5A00 /* HomeCollectionViewCell.swift */; };
+		DA054A6923E6C66B00EC5A00 /* UIImagView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A6823E6C66B00EC5A00 /* UIImagView+Extensions.swift */; };
+		DA054A6B23E6D8A400EC5A00 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA054A6A23E6D8A400EC5A00 /* Utilities.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +44,7 @@
 /* Begin PBXFileReference section */
 		DA054A2323E6A0FB00EC5A00 /* KrishnaVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KrishnaVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA054A2623E6A0FB00EC5A00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DA054A2823E6A0FB00EC5A00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DA054A2823E6A0FB00EC5A00 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		DA054A2B23E6A0FB00EC5A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA054A2D23E6A0FD00EC5A00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA054A3023E6A0FD00EC5A00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +55,14 @@
 		DA054A4223E6A0FD00EC5A00 /* KrishnaVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KrishnaVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA054A4623E6A0FD00EC5A00 /* KrishnaVideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KrishnaVideoPlayerUITests.swift; sourceTree = "<group>"; };
 		DA054A4823E6A0FD00EC5A00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA054A5B23E6A23800EC5A00 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DA054A5D23E6A30400EC5A00 /* assignment.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = assignment.json; sourceTree = "<group>"; };
+		DA054A5F23E6A59F00EC5A00 /* HomeDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeDetails.swift; sourceTree = "<group>"; };
+		DA054A6123E6AADF00EC5A00 /* HomeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableView.swift; sourceTree = "<group>"; };
+		DA054A6323E6AB2900EC5A00 /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		DA054A6523E6BD8400EC5A00 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		DA054A6823E6C66B00EC5A00 /* UIImagView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImagView+Extensions.swift"; sourceTree = "<group>"; };
+		DA054A6A23E6D8A400EC5A00 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +113,10 @@
 		DA054A2523E6A0FB00EC5A00 /* KrishnaVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				DA054A6C23E6EA9B00EC5A00 /* Utilities */,
+				DA054A6723E6C64B00EC5A00 /* Extensions */,
+				DA054A5423E6A15E00EC5A00 /* Features */,
 				DA054A2623E6A0FB00EC5A00 /* AppDelegate.swift */,
-				DA054A2823E6A0FB00EC5A00 /* ViewController.swift */,
 				DA054A2A23E6A0FB00EC5A00 /* Main.storyboard */,
 				DA054A2D23E6A0FD00EC5A00 /* Assets.xcassets */,
 				DA054A2F23E6A0FD00EC5A00 /* LaunchScreen.storyboard */,
@@ -123,6 +141,84 @@
 				DA054A4823E6A0FD00EC5A00 /* Info.plist */,
 			);
 			path = KrishnaVideoPlayerUITests;
+			sourceTree = "<group>";
+		};
+		DA054A5423E6A15E00EC5A00 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				DA054A5623E6A16B00EC5A00 /* VideoPlayer */,
+				DA054A5523E6A16600EC5A00 /* Home */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		DA054A5523E6A16600EC5A00 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				DA054A5A23E6A19E00EC5A00 /* Controller */,
+				DA054A5923E6A19400EC5A00 /* Model */,
+				DA054A5823E6A18D00EC5A00 /* ViewModel */,
+				DA054A5723E6A18400EC5A00 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		DA054A5623E6A16B00EC5A00 /* VideoPlayer */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VideoPlayer;
+			sourceTree = "<group>";
+		};
+		DA054A5723E6A18400EC5A00 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DA054A6123E6AADF00EC5A00 /* HomeTableView.swift */,
+				DA054A6323E6AB2900EC5A00 /* HomeTableViewCell.swift */,
+				DA054A6523E6BD8400EC5A00 /* HomeCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DA054A5823E6A18D00EC5A00 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DA054A5B23E6A23800EC5A00 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DA054A5923E6A19400EC5A00 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DA054A5D23E6A30400EC5A00 /* assignment.json */,
+				DA054A5F23E6A59F00EC5A00 /* HomeDetails.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DA054A5A23E6A19E00EC5A00 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DA054A2823E6A0FB00EC5A00 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DA054A6723E6C64B00EC5A00 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				DA054A6823E6C66B00EC5A00 /* UIImagView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		DA054A6C23E6EA9B00EC5A00 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DA054A6A23E6D8A400EC5A00 /* Utilities.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -229,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA054A5E23E6A30400EC5A00 /* assignment.json in Resources */,
 				DA054A3123E6A0FD00EC5A00 /* LaunchScreen.storyboard in Resources */,
 				DA054A2E23E6A0FD00EC5A00 /* Assets.xcassets in Resources */,
 				DA054A2C23E6A0FB00EC5A00 /* Main.storyboard in Resources */,
@@ -256,8 +353,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA054A2923E6A0FB00EC5A00 /* ViewController.swift in Sources */,
+				DA054A6923E6C66B00EC5A00 /* UIImagView+Extensions.swift in Sources */,
+				DA054A6623E6BD8400EC5A00 /* HomeCollectionViewCell.swift in Sources */,
+				DA054A6423E6AB2900EC5A00 /* HomeTableViewCell.swift in Sources */,
+				DA054A2923E6A0FB00EC5A00 /* HomeViewController.swift in Sources */,
+				DA054A6223E6AADF00EC5A00 /* HomeTableView.swift in Sources */,
+				DA054A5C23E6A23800EC5A00 /* HomeViewModel.swift in Sources */,
+				DA054A6B23E6D8A400EC5A00 /* Utilities.swift in Sources */,
 				DA054A2723E6A0FB00EC5A00 /* AppDelegate.swift in Sources */,
+				DA054A6023E6A59F00EC5A00 /* HomeDetails.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,13 +537,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8QZ9T735MR;
+				DEVELOPMENT_TEAM = 4865RX74V6;
 				INFOPLIST_FILE = KrishnaVideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.com.KrishnaVideoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ludi.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,13 +555,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8QZ9T735MR;
+				DEVELOPMENT_TEAM = 4865RX74V6;
 				INFOPLIST_FILE = KrishnaVideoPlayer/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.krishna.com.KrishnaVideoPlayer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ludi.com;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
